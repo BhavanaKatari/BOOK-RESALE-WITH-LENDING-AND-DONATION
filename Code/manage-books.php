@@ -100,9 +100,8 @@ foreach($results as $result)
 											<td class="center"><?php echo htmlentities($result->BookPrice);?></td>
 											<td class="center"><?php echo htmlentities($result->BookPrice);?></td>
                                             <td class="center">
+                                            <a href="shipping.php"><button class="btn btn-primary">Shipping</button> 
 
-                                            <a href="edit-book.php?bookid=<?php echo htmlentities($result->bookid);?>"><button class="btn btn-primary">Shipping</button> 
-                                        
                                             </td>
                                         </tr>
  <?php $cnt=$cnt+1;}} ?>                                      
